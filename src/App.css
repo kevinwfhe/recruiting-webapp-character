@@ -44,3 +44,16 @@
     transform: rotate(360deg);
   }
 }
+
+.character-class {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.character-class.locked {
+  color: grey;
+}
+
+.character-class.stats {
+  border: 1px solid yellow;
+}
